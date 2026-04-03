@@ -24,10 +24,13 @@ Before making any changes, I reviewed the system’s default configuration to un
 
 ### What I checked
 
-- Password policy settings  
-- Account lockout policy  
-- Audit policy configuration  
-- List of running services  
+- Password policy settings (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefulatPasswordSettings.png)
+- Account lockout policy  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAccountLockoutPolicy.png)
+- Audit policy configuration  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAuditPolicies.png)
+  
+- List of running services  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices1.png) 1/2
+- (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices2.png) 2/2
+  
 
 ---
 
