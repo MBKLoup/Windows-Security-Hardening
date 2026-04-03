@@ -24,12 +24,12 @@ Before making any changes, I reviewed the system’s default configuration to un
 
 ### What I checked
 
-- Password policy settings (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefulatPasswordSettings.png)
-- Account lockout policy  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAccountLockoutPolicy.png)
-- Audit policy configuration  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAuditPolicies.png)
+  - Password policy settings (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefulatPasswordSettings.png)
+  - Account lockout policy  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAccountLockoutPolicy.png)
+  - Audit policy configuration  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAuditPolicies.png)
   
-- List of running services  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices1.png) 1/2
-- (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices2.png) 2/2
+  - List of running services  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices1.png) 1/2
+  - (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices2.png) 2/2
   
 
 ---
@@ -39,11 +39,14 @@ Before making any changes, I reviewed the system’s default configuration to un
 I configured password and account lockout policies to enforce stronger authentication.
 
 ### Changes implemented
+  ## Password (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedPasswordSettings.png)
+-   Enabled password complexity requirements  
+-   Increased minimum password length
 
-- Enabled password complexity requirements  
-- Increased minimum password length  
-- Configured account lockout threshold  
-- Set lockout duration and reset timers  
+  ## Account Settings (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedAccountSettings.png)
+-   Configured account lockout threshold  
+-   Set lockout duration and reset timers  
+
 
 ---
 
@@ -123,9 +126,6 @@ After applying all configurations, I verified that the changes were working as e
 - Validating configurations  
 
 ---
-
-## Screenshots
-
 
 
 ---
