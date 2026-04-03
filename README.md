@@ -24,12 +24,12 @@ Before making any changes, I reviewed the system’s default configuration to un
 
 ### What I checked
 
-  - Password policy settings (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefulatPasswordSettings.png)
-  - Account lockout policy  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAccountLockoutPolicy.png)
-  - Audit policy configuration  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAuditPolicies.png)
+  - Password policy settings ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefulatPasswordSettings.png )
+  - Account lockout policy  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAccountLockoutPolicy.png )
+  - Audit policy configuration  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAuditPolicies.png )
   
-  - List of running services  (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices1.png) 1/2
-  - (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices2.png) 2/2
+  - List of running services  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices1.png ) 1/2
+  - ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices2.png ) 2/2
   
 
 ---
@@ -39,11 +39,11 @@ Before making any changes, I reviewed the system’s default configuration to un
 I configured password and account lockout policies to enforce stronger authentication.
 
 ### Changes implemented
-  ## Password (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedPasswordSettings.png)
+   Password ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedPasswordSettings.png )
 -   Enabled password complexity requirements  
 -   Increased minimum password length
 
-  ## Account Settings (https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedAccountSettings.png)
+   Account Settings ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedAccountSettings.png )
 -   Configured account lockout threshold  
 -   Set lockout duration and reset timers  
 
@@ -56,10 +56,12 @@ I enabled auditing to ensure that important system events are logged and can be 
 
 ### Audit categories enabled
 
-- Logon and logoff events  
-- Account management  
-- Policy changes  
-- Privilege use  
+- Logon and logoff events
+    Logon ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedAccountLogon.png )
+    Logoff ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedLogonLogoff.png )
+- Account management  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedAccountManagement.png)
+- Policy changes  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedSystemPolicies.png )
+- Privilege use  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedPrivilegeUse.png )
 
 ---
 
