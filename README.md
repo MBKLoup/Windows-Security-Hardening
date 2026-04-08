@@ -27,10 +27,13 @@ Before making any changes, I reviewed the system’s default configuration to un
 ### What I checked
 
   - Password policy settings ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefulatPasswordSettings.png )
+    
   - Account lockout policy  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAccountLockoutPolicy.png )
+    
   - Audit policy configuration  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultAuditPolicies.png )
   
   - List of running services  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices1.png ) 1/2
+    
   - ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices2.png ) 2/2
   
 
@@ -41,13 +44,15 @@ Before making any changes, I reviewed the system’s default configuration to un
 I configured password and account lockout policies to enforce stronger authentication.
 
 ### Changes implemented
-   Password ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedPasswordSettings.png )
+   Password 
 -   Enabled password complexity requirements  
 -   Increased minimum password length
+-   ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedPasswordSettings.png )
 
-   Account Settings ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedAccountSettings.png )
+   Account Settings 
 -   Configured account lockout threshold  
--   Set lockout duration and reset timers  
+-   Set lockout duration and reset timers
+-    ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedAccountSettings.png )
 
 
 ---
@@ -61,6 +66,7 @@ I enabled auditing to ensure that important system events are logged and can be 
 - Logon and logoff events
     Logon ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedAccountLogon.png )
     Logoff ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedLogonLogoff.png )
+  
 - Account management  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedAccountManagement.png )
 - Policy changes  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedSystemPolicies.png )
 - Privilege use  ( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/HardenedPrivilegeUse.png )
@@ -71,8 +77,9 @@ I enabled auditing to ensure that important system events are logged and can be 
 
 I reviewed the list of running services to identify unnecessary or potentially risky services.
 
-( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices1.png )
-( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices2.png )
+( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices1.png ) 1/2
+
+( https://github.com/MBKLoup/Windows-Security-Hardening/blob/main/Screenshots/DefaultRunningServices2.png ) 2/2
 
 ### What I did
 
